@@ -5,11 +5,11 @@
 }
 
 body{
-    background-color: rgb(204, 250, 246);
+    background-color: #a5a19b;
 }
 
 header{
-    background-color: rgb(93, 187, 177);
+    background-color: #595652;
 
     padding: 20px 30px 20px 30px;
     border: 5px solid black; 
@@ -38,6 +38,7 @@ header .timer{
     border: 1px solid black;
     padding: 2.5px 0 2.5px;
     font-size: 1.5em;
+    background-color:#c5bda6;
 }
 
 .startScreen{
@@ -49,6 +50,11 @@ header .timer{
 }
 .startScreen p{
     font-size: 1.5em;
+}
+.startScreen button{
+    background-color: #c5bda6;
+    font-size: 1.5em;
+    padding: 5px 10px 5px 10px;
 }
 
 .questionSect, .endScreen, .scores{
