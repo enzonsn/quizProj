@@ -11,12 +11,12 @@ body{
 header{
     background-color: rgb(93, 187, 177);
 
-    padding: 20px 0 20px;
+    padding: 20px 30px 20px 30px;
     border: 5px solid black; 
     
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 header .hs{
@@ -29,6 +29,7 @@ header button{
     outline: none;
     border: 0px solid;
     margin: 10px;
+    font-weight: bold;
 }
 header button:hover{
     text-decoration:underline;
@@ -38,4 +39,3 @@ header .timer{
     padding: 2.5px 0 2.5px;
     font-size: 1.5em;
 }
-
