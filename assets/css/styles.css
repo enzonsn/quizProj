@@ -133,6 +133,6 @@ header .timer{
     font-weight: bold;
 }
 
-.startScreen, .questionSect, .endScreen{
+.questionSect, #check, .endScreen, .scores{
     display: none;
  } 
