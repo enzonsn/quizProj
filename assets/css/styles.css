@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(204, 250, 246);
+}
+
+header{
+    background-color: rgb(93, 187, 177);
+
+    padding: 20px 0 20px;
+    border: 5px solid black; 
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+header .hs{
+    display:flex;
+    flex-flow:column;
+}
+header button{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: 0px solid;
+    margin: 10px;
+}
+header button:hover{
+    text-decoration:underline;
+}
+header .timer{
+    border: 1px solid black;
+    padding: 2.5px 0 2.5px;
+    font-size: 1.5em;
+}
+
