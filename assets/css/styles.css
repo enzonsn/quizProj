@@ -86,6 +86,37 @@ header .timer{
     border: 2px solid #595652;
 }
 
-.startScreen, .endScreen, .scores{
+.endScreen{
+    margin: 120px auto 0 auto;
+    text-align: center;
+}
+.endScreen h2{
+    font-size: 2em;
+    padding: 0 0 10px 0;
+}
+.endScreen .upperP{
+    padding: 25px 0 15px 0;
+    font-size: 1.75em;
+    color:#3f3e3e
+}
+.endScreen #endScore{
+    color: #353434; 
+}
+.endScreen .lowerP{
+    margin: 5px 0 0 0;
+}
+.endScreen .lowerP input{
+    height: 25px;
+    width: 100px;
+    background-color: #c5bda6;
+}
+.endScreen .lowerP button{
+    padding: 5px;
+    background-color: #c5bda6; 
+    border: 2px solid #595652;
+    font-weight: bold;
+}
+
+.startScreen, .questionSect, .scores{
     display: none;
-} 
+ } 
