@@ -66,6 +66,26 @@ header .timer{
     margin: 30px 0 0 0;
 }
 
-.questionSect, .endScreen, .scores{
+.questionSect{
+    text-align: center;
+    margin: 60px auto 0 auto;
+    width: 800px;
+}
+.questionSect h2{
+    font-size: 1.75em;
+    padding: 0 0 10px 0;
+}
+.questionSect ul{
+    text-align:left;
+    list-style: none;
+}
+.questionSect button{
+    background-color: #c5bda6;
+    margin: 10px;
+    padding: 10px 10px 10px 7.5px;
+    border: 2px solid #595652;
+}
+
+.startScreen, .endScreen, .scores{
     display: none;
 } 
