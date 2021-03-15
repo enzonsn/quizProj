@@ -1,7 +1,8 @@
-# quizProj
+# quizProj #
 
 ##Description
-A website made for taking a quiz over javascript!
+
+A website made for taking a quiz over javascript!##
 
 ## Website
 [Javascript Quiz](https://enzonsn.github.io/quizProj/)
