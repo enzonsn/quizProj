@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 <body>
-    <script src="./assets/js/script.js"></script>
     <header>
-        <h1>JavaScript Quiz</h1>
+        <button id="home"><h1>JavaScript Quiz</h1></button>
         <div class="timeHS"> <button id="viewHS" type="button">View Highscores</button>
             <p class="timer" id="timer">Time: 60s</p> </div>
     </header>
@@ -38,7 +37,7 @@
         <div>
             <p class="upperP">You got a score of: <b><span id="endScore">0</span></b></p>
             <p class="lowerP">
-                <input placeholder="   Your initials" id="input"/>
+                <input placeholder="  Your initials" id="input"/>
                 <button id="submit" type="button" class="submit">Submit</button>
             </p>
         </div>
@@ -52,5 +51,6 @@
             <button id="clear" type="button" class="clear">Clear Scores</button>
         </div>
     </section>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
